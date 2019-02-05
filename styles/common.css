@@ -1,0 +1,23 @@
+/* standard elements */
+html {min-height: 100%;}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {font: normal 1.8em Tahoma,sans-serif;}
+h2 {font: bold 1.4em sans-serif;}
+h3 {font: bold 1em Tahoma,sans-serif;}
+h4 {font: bold 1em Verdana,sans-serif;color:#553;margin-bottom: 4px; }
+
+
+h1,h2,h3 {padding-top: 6px; color: #553; margin-bottom: 4px;}
+
+/* footer */
+.footer {
+	font: normal 1em Verdana,sans-serif;
+	color: #553;
+	margin-top: 5px;
+	padding: 10px 12px;
+}

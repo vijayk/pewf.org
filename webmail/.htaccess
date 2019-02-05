@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^webmail.pewf.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www.webmail.pewf.org$
+RewriteRule ^/?$ "http\:\/\/pewf\.org\/webmail" [R=301,L]
+
