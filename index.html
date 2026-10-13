@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Under Maintenance | Patliputra Educational and Welfare Foundation</title>
+<style>
+  :root {
+    --bg: #f6f4ee;
+    --card: #ffffff;
+    --text: #1f2a37;
+    --muted: #5b6676;
+    --accent: #7a1f2b;
+    --accent-soft: #f3e4e6;
+    --border: #e3ded2;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14171c;
+      --card: #1d2229;
+      --text: #eef0f3;
+      --muted: #a0a8b5;
+      --accent: #e08a95;
+      --accent-soft: #2c2023;
+      --border: #2d343e;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; margin: 0; }
+  body {
+    font-family: Georgia, "Times New Roman", serif;
+    background: var(--bg);
+    color: var(--text);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    line-height: 1.6;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-top: 5px solid var(--accent);
+    border-radius: 10px;
+    max-width: 640px;
+    width: 100%;
+    padding: 44px 36px;
+    text-align: center;
+    box-shadow: 0 8px 28px rgba(0,0,0,.07);
+  }
+  .icon {
+    width: 72px; height: 72px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    background: var(--accent-soft);
+    display: flex; align-items: center; justify-content: center;
+  }
+  .icon svg { width: 36px; height: 36px; stroke: var(--accent); fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; animation: spin 8s linear infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  @media (prefers-reduced-motion: reduce) { .icon svg { animation: none; } }
+  .org { font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin: 0 0 6px; }
+  h1 { font-size: 30px; margin: 0 0 14px; color: var(--accent); }
+  p { margin: 0 0 14px; color: var(--muted); font-size: 17px; }
+  .tagline { font-style: italic; margin-top: 26px; padding-top: 20px; border-top: 1px solid var(--border); font-size: 15px; }
+  .contact { font-size: 15px; }
+  .contact a { color: var(--accent); text-decoration: none; border-bottom: 1px solid currentColor; }
+  @media (max-width: 480px) { .card { padding: 32px 22px; } h1 { font-size: 25px; } }
+</style>
+</head>
+<body>
+  <main class="card" role="main">
+    <div class="icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18v3h3l6.3-6.3a4 4 0 0 0 5.4-5.4l-2.4 2.4-2.1-.6-.6-2.1z"/></svg>
+    </div>
+    <p class="org">Patliputra Educational and Welfare Foundation</p>
+    <h1>We’ll be back soon</h1>
+    <p>Our website is currently undergoing scheduled maintenance to improve your experience. We apologise for the inconvenience.</p>
+    <p class="contact">
+      For urgent queries, please write to us at
+      <a href="mailto:info@pewf.org">info@pewf.org</a>.
+    </p>
+    <p class="tagline">PEWF &mdash; Creating a Knowledge Society</p>
+  </main>
+</body>
+</html>
